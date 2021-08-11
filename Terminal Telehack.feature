@@ -1,7 +1,7 @@
 ################################################################
 # Test Case: Terminal Telehack.feature
 # Functional Area: Terminal
-# Author:Sonam Gund
+# Author:Sonam Gund Kale
 # Test Case Type: Regression
 #
 # Description: Verifying various actions can be performed on the Telehack website via a terminal
