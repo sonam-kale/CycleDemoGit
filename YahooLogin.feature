@@ -1,6 +1,6 @@
 Feature: My Feature
 
-# Background: Open Chrome
+Background: 
 # Given I assign "text" to variable "searchTxt"
 # Given I assign 30 to variable "maxCount"
 # Given I assign 1 to variable "counter"
@@ -182,6 +182,7 @@ And I click element "xPath://a[contains(text(),'Gainers / Losers')]" in web brow
 And I wait 5 seconds
 
 #When I see "Top Gainers" in web browser
+
 And I copy value in row "2" column "3" in table "xPath://table[@class='dataTable']" in web browser as variable "value"
 And I wait 5 seconds
 And I echo $value
